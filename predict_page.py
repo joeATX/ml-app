@@ -1,6 +1,7 @@
-import streamlit as st
 import pickle
+
 import numpy as np
+import streamlit as st
 
 
 def load_model():
@@ -20,7 +21,7 @@ def show_predict_page():
     st.write("""### We need some information to predict the salary""")
 
     countries = (
-        "United States",
+        "United States of America",
         "India",
         "United Kingdom",
         "Germany",
